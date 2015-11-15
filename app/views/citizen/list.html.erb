@@ -1,0 +1,13 @@
+<% if @citizen.blank? %>
+<p>There are not any citizens currently in the system.</p>
+<% else %>
+<p>These are the current citizens in our system</p>
+
+<ul id = "citizen">
+   <% @citizen.each do |c| %>
+   <li><%=  c.id-%></li>
+   <% end %>
+</ul>
+
+<% end %>
+<p><%= link_to "Add new citizen", {:action => 'new' }%></p>
