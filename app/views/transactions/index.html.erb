@@ -1,0 +1,13 @@
+<h1>Transactions</h1>
+<%= link_to "New", new_transaction_path(@transaction)%>
+
+<% @transactions.each do |transaction| %>	
+	<p> Transaction type: <%= transaction.transaction_type %></p>
+	<p> Amount: <%= transaction.amount %></p>
+	<p> Balance: <%= transaction.balance %></p>
+	<p> Transaction Date: <%= transaction.transaction_date %></p>
+
+	<%= link_to "Edit", edit_transaction_path(transaction)%>
+	<%= link_to "Show", transaction_path(transaction)%>
+	<%= link_to "Delete", transaction_path(transaction), method: :delete, data: {confirm: "Are you sure?"}%>
+<% end %>
