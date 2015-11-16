@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :banks
+  resources :admins
         get 'citizen/list'
         get 'citizen/new'
         post 'citizen/create'
