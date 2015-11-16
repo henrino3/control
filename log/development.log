@@ -1795,3 +1795,11 @@ Started GET "/assets/banks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934c
 
 
 Started GET "/assets/banks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-16 03:01:10 +0000
+
+
+Started GET "/banks" for 127.0.0.1 at 2015-11-16 10:06:26 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BanksController#index as HTML
+  [1m[35mBank Load (0.9ms)[0m  SELECT "banks".* FROM "banks"
+  Rendered banks/index.html.erb within layouts/application (37.1ms)
+Completed 200 OK in 1833ms (Views: 1740.8ms | ActiveRecord: 1.7ms)
