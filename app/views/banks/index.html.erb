@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Banks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Reg no</th>
+      <th>Founded</th>
+      <th>Headquarters</th>
+      <th>Ceo</th>
+      <th>Services</th>
+      <th>Email</th>
+      <th>Website</th>
+      <th>Logo url</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @banks.each do |bank| %>
+      <tr>
+        <td><%= bank.name %></td>
+        <td><%= bank.type %></td>
+        <td><%= bank.reg_no %></td>
+        <td><%= bank.founded %></td>
+        <td><%= bank.headquarters %></td>
+        <td><%= bank.ceo %></td>
+        <td><%= bank.services %></td>
+        <td><%= bank.email %></td>
+        <td><%= bank.website %></td>
+        <td><%= bank.logo_url %></td>
+        <td><%= link_to 'Show', bank %></td>
+        <td><%= link_to 'Edit', edit_bank_path(bank) %></td>
+        <td><%= link_to 'Destroy', bank, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Bank', new_bank_path %>

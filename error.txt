@@ -1,0 +1,117 @@
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   log/development.log
+	modified:   tmp/pids/server.pid
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	app/assets/javascripts/admins.coffee
+	app/assets/javascripts/banks.coffee
+	app/assets/stylesheets/admins.scss
+	app/assets/stylesheets/banks.scss
+	app/assets/stylesheets/scaffolds.scss
+	app/controllers/admins_controller.rb
+	app/controllers/banks_controller.rb
+	app/helpers/admins_helper.rb
+	app/helpers/banks_helper.rb
+	app/models/admin.rb
+	app/models/bank.rb
+	app/views/admins/
+	app/views/banks/
+	db/migrate/20151116015613_create_admins.rb
+	db/migrate/20151116024150_create_banks.rb
+	error.txt
+	test/controllers/admins_controller_test.rb
+	test/controllers/banks_controller_test.rb
+	test/fixtures/admins.yml
+	test/fixtures/banks.yml
+	test/models/admin_test.rb
+	test/models/bank_test.rb
+	tmp/cache/assets/development/sprockets/v3.0/-elNItNlrY-Tj2PhYEQXwV3mFhlBHIattFn81vm727s.cache
+	tmp/cache/assets/development/sprockets/v3.0/0W9lRQHeUE6MRxxq5M8y0GulZORHvrtwIZOkZZPzL00.cache
+	tmp/cache/assets/development/sprockets/v3.0/2iUjX9Mj2_ruaB4Vol4Vw0htTODc0w-c9o7nwVvMvWs.cache
+	tmp/cache/assets/development/sprockets/v3.0/3CP_hQ9sf8bb3Yu8k5eq_g5b4aNbOM0lZCVR3dBGxbE.cache
+	tmp/cache/assets/development/sprockets/v3.0/40umk7V6Ce7qawZLoelZrhVhAU9KQ18zA6WIGKQZ774.cache
+	tmp/cache/assets/development/sprockets/v3.0/8O_CeNhJaG_k74g4yRXtGcmYewa1jyRH36Lwv9GSzVA.cache
+	tmp/cache/assets/development/sprockets/v3.0/9PKpLpMcAWpvhyjKVfznjki8kvYEuXrXncvUBvf8TrA.cache
+	tmp/cache/assets/development/sprockets/v3.0/A1a3xGpuvbiZNkBQWffzkZMrhhOCSWf2ydnhezJUKZY.cache
+	tmp/cache/assets/development/sprockets/v3.0/BhrvzcGAtk2amnsRAs0V1RSNbneLYJuQpn0DMt0WvFA.cache
+	tmp/cache/assets/development/sprockets/v3.0/Br-C-iRA_oCKInWWJxaMjLzm_rO-1CqQvLjW5YgrNGc.cache
+	tmp/cache/assets/development/sprockets/v3.0/C91-1V4KasGYH9rvCyMFziJKYcNB737um0MP9eodroA.cache
+	tmp/cache/assets/development/sprockets/v3.0/CPdKM4D1CAXTS2ZuA8s-JJjwUDUCeYwKq8GC48qPWPg.cache
+	tmp/cache/assets/development/sprockets/v3.0/Cmzv8oaFS9msWm5MBDdUl2RBpo-W79ntaknqTOcpN8Y.cache
+	tmp/cache/assets/development/sprockets/v3.0/DCmen7-UlR3Opfa0TSb4YvAdluh3YYVrL_33pCEYudA.cache
+	tmp/cache/assets/development/sprockets/v3.0/DaPWIl9jXfXrGo-rs2ra_pyC1lnRJCflLARCZX7b8SE.cache
+	tmp/cache/assets/development/sprockets/v3.0/EEywgevOvZW1VZ04vJQFZXUQ2hUbkQtcUTysWeFP3Zk.cache
+	tmp/cache/assets/development/sprockets/v3.0/FSkgoTEeM4zKWWoTcEbRkue77GdjtHys6rGBbB3f0Rs.cache
+	tmp/cache/assets/development/sprockets/v3.0/GH-o8cX02tGNmN73o_K3e_tb26-2uj1cN4b_arDV8T8.cache
+	tmp/cache/assets/development/sprockets/v3.0/H1DWoftmTIwBvvwGyRZkoTbs5DXROaXJvWdK7gtcOmc.cache
+	tmp/cache/assets/development/sprockets/v3.0/HJ3Ank-Um2KY7E2Z49ny21FteAlFeg0omMqzRoanXuI.cache
+	tmp/cache/assets/development/sprockets/v3.0/HhcIqK5WwFRDdEjSNwnEwAY1PBqlydf00xwtX77cMpE.cache
+	tmp/cache/assets/development/sprockets/v3.0/KqTvAKLE3FFmR_R-y-9ASTB50oORRUCeHWo1GTlE-Nk.cache
+	tmp/cache/assets/development/sprockets/v3.0/LRlpl-gxKpHIfhMtvoa0PDrphw9U9sY5Rg9B0ZH8_to.cache
+	tmp/cache/assets/development/sprockets/v3.0/MNv4vVKtCpiKj1lB5jtRGDvBuFeYcsG9Eao3NCzdST0.cache
+	tmp/cache/assets/development/sprockets/v3.0/OAakk6pEAzdyd-sKamqW97jH4BdoKjrYzSqgiirfWks.cache
+	tmp/cache/assets/development/sprockets/v3.0/ONZj66OMkbJ_cvAkvSfJb9EAqRFc3N7ACHXqNJGvF6w.cache
+	tmp/cache/assets/development/sprockets/v3.0/OUJyQkeja1JiFI8twOpOpn9yVi_zpK194ggXI7p2kHw.cache
+	tmp/cache/assets/development/sprockets/v3.0/PDX1NVAmf7bpTlig8OBBxN-PeaqKcZkPQUbEDiYVR_0.cache
+	tmp/cache/assets/development/sprockets/v3.0/Pm3ENYpCrQMOJGd-d8lACN_nbGZWiivq_KyPLJoD9Xk.cache
+	tmp/cache/assets/development/sprockets/v3.0/Q1CFC6CmSMcgQsGv81E876ENicJ1p_ZGno9umTq0VXM.cache
+	tmp/cache/assets/development/sprockets/v3.0/QIJuft-IuypaT8O9FGeK0lW95ZOz08ejsDwDEN3OcBc.cache
+	tmp/cache/assets/development/sprockets/v3.0/QvXj3MqI5wsvnWn4hwvW9EAL3y8bm2VPFdTLOWijQ8Q.cache
+	tmp/cache/assets/development/sprockets/v3.0/RReDW7mZZaSROY_Pfq4RMkj7JX4zZzefpwMJFM1lW3I.cache
+	tmp/cache/assets/development/sprockets/v3.0/S4sylE0WfwnRxwsw5Xs322FJfe48yZ_LIOGoWLEcR6s.cache
+	tmp/cache/assets/development/sprockets/v3.0/SrFfdU4YnLrpKYegb2C_rWs2qGHD_KYPmmVaz4blbLw.cache
+	tmp/cache/assets/development/sprockets/v3.0/TO-w0GQQFBkAy6iEVHMnm-gGLyUgDZ-1H849bCa5J3I.cache
+	tmp/cache/assets/development/sprockets/v3.0/TxtklClfIIJ4DVCuEo9MfSak2hqMLzyUG2wAzGIrttM.cache
+	tmp/cache/assets/development/sprockets/v3.0/Txtmlbk9MobDTMfjrJyXUmNMG9AIz3E7tbO55PBA8U8.cache
+	tmp/cache/assets/development/sprockets/v3.0/ULuL4TYqVm8RtMSLemdAa9N_UKVD9TgOZeHbAfKco9A.cache
+	tmp/cache/assets/development/sprockets/v3.0/VNzg0UQVc86A_h0exfGDFq117McKOyTGji3l7Y5H06U.cache
+	tmp/cache/assets/development/sprockets/v3.0/VPk3VrohzDT3zPhdqgGI7HdZMl-5LXie6WDgxVJtMTE.cache
+	tmp/cache/assets/development/sprockets/v3.0/VySD2aw_H8mRlqGfgT6wpvaYAlajDmRFkzTzQfLnO-w.cache
+	tmp/cache/assets/development/sprockets/v3.0/WLr7ZWPxEeeXFwqPQiyr0OWyDwqPwcIUA_mPJgk99FM.cache
+	tmp/cache/assets/development/sprockets/v3.0/X5xmZR0iUY11I95gIeQ_yauOFBxt4WyCyR038k0PqA8.cache
+	tmp/cache/assets/development/sprockets/v3.0/XCVh0_dT_AOsVO1oHRHjQY6vm_8uMB1ABtDRX4ugiKc.cache
+	tmp/cache/assets/development/sprockets/v3.0/XKu5WVoAE9rHgcUDhVpOF3BGTQF_49Iuga-Fe82eZa4.cache
+	tmp/cache/assets/development/sprockets/v3.0/Xa0beBYfVmJTfNQa6NbQYNk8PxKI0nUnSVDQPzDJzNg.cache
+	tmp/cache/assets/development/sprockets/v3.0/Y40qEH7HJ9w9OlgyM8BBeGr_MVgzg2gzvpSbRz-m5G0.cache
+	tmp/cache/assets/development/sprockets/v3.0/ZS7P-OEk8HhzlrdyI0gvCMwuAPE1YHiSzusK8r18TAs.cache
+	tmp/cache/assets/development/sprockets/v3.0/Zop2ueiHgM4NZrhAlWEOpVrNWcXeU93DRbzsNKdDhdI.cache
+	tmp/cache/assets/development/sprockets/v3.0/Zz3PdcseRlsBxXsbPiAmUd26YG6B44iihKb4NLp-oBw.cache
+	tmp/cache/assets/development/sprockets/v3.0/e63sAyfxhLQ32LaSRvbN4u2wNs6RJmexSMMEmTw0o3k.cache
+	tmp/cache/assets/development/sprockets/v3.0/ehnUUX2XI6rWA8tsyPkoAdvPbTGpSTU9lchEqjjdlDk.cache
+	tmp/cache/assets/development/sprockets/v3.0/fVCQgrLd9uVEq1Xtj1_jur95O3oNpDvsjVbJP8iqxUA.cache
+	tmp/cache/assets/development/sprockets/v3.0/faVsDu_QsUvmGEbW9JGt6sKoDnxoTxx0xDz2FNtipkc.cache
+	tmp/cache/assets/development/sprockets/v3.0/fjHeDxgJrUdGl14qVotA8TUuqXYDsqukn-qzugdooa8.cache
+	tmp/cache/assets/development/sprockets/v3.0/hciKaFOx8BkLpLalsGEn4254x2Ubj0QYsSM1g76hhaw.cache
+	tmp/cache/assets/development/sprockets/v3.0/iJz4py1Gil4rewhrYNvufDl_OY-JR_nBwBUl3cQ2ELk.cache
+	tmp/cache/assets/development/sprockets/v3.0/lFb4crlYSsUS-pSOSMu3xfChje8wjpCd7-nhU5AIMbA.cache
+	tmp/cache/assets/development/sprockets/v3.0/lQpyfk_f5ytsi1wiJ4DbBviWo1MI7HKTJJZ7y3_D6DU.cache
+	tmp/cache/assets/development/sprockets/v3.0/lVyQsjDrfTHos_HG9LBKFYSCaytrHFic3yE8cr-XOrY.cache
+	tmp/cache/assets/development/sprockets/v3.0/m8I7r4cNXYTlrxV8qspi0OrVwQQwboqIw57vua0-2rs.cache
+	tmp/cache/assets/development/sprockets/v3.0/m_sqiKsM7xY6-O01bRGaHJ_ghhqGZgThG5JyEJ04MHw.cache
+	tmp/cache/assets/development/sprockets/v3.0/nV-pd1qOXZgXxsqLz9GhCgsvR8OEjKrXi81jXjq7G8A.cache
+	tmp/cache/assets/development/sprockets/v3.0/nsZgI_JQI9MqN1mqSmXoHy04RUTE3pnv_t4MTGPHme0.cache
+	tmp/cache/assets/development/sprockets/v3.0/qJKWrfO7yvS28j4OLf2xV3skgXfxVlw1PaPRAuHjzKU.cache
+	tmp/cache/assets/development/sprockets/v3.0/tw_eR3ky5Efu_gw-GPNOl2m7hRq1LlO-3iQ_c1C8kN0.cache
+	tmp/cache/assets/development/sprockets/v3.0/u4QttYF1PpKac8ZLn1-DzaEx0Az-wMGAGdfdc21kMqA.cache
+	tmp/cache/assets/development/sprockets/v3.0/uAAfQRULyYQqNdO_RkHZ90mKcZbpU4ZSeHR-Pa_t-yM.cache
+	tmp/cache/assets/development/sprockets/v3.0/vhZHFmJPgY_wqK7u2ME9uoSjPRRAWVeUJfqhitINqQ8.cache
+	tmp/cache/assets/development/sprockets/v3.0/vqRymA701U-WpHtBrDRsBD9L0O2kRpsv3G8hF9slIXk.cache
+	tmp/cache/assets/development/sprockets/v3.0/vvsVdwJbmiwironsEvjL5J1TVfFG39xQ9wOy32CtKMw.cache
+	tmp/cache/assets/development/sprockets/v3.0/wQeoW11u3oVqP8QuQU0zXZklmmPeCJ03_rYXb1bKSRQ.cache
+	tmp/cache/assets/development/sprockets/v3.0/yGcXyZDV8x_aix_T4rq38OXgX_zJ7YdYliPAZUKSjbM.cache
+	tmp/cache/assets/development/sprockets/v3.0/zF75hSYxyLY73x2Zo_FqWaaeqrAn63o3jly37GnNuhs.cache
+	tmp/cache/assets/development/sprockets/v3.0/zFtoHOhO159uHBzcyMMxsZkBks8ygK5FlNVLmsEwOfQ.cache
+	tmp/cache/assets/development/sprockets/v3.0/zTtT-qMXAq0agS9qKPkOBOToFzrsldRSlRZuEnf-0us.cache
+	tmp/cache/assets/development/sprockets/v3.0/zmunluHX6j7qrcdsn_sqCQXE7yrgq4bCzReCZ-fe4UE.cache
+	tmp/cache/assets/development/sprockets/v3.0/zzo7xmXTWQemWqItqrZY97IbNdd8Uph4_bezVH6EbbM.cache
+
+no changes added to commit (use "git add" and/or "git commit -a")
