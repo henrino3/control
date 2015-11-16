@@ -1,0 +1,57 @@
+<%= form_for(@bank) do |f| %>
+  <% if @bank.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bank.errors.count, "error") %> prohibited this bank from being saved:</h2>
+
+      <ul>
+      <% @bank.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :type %><br>
+    <%= f.text_field :type %>
+  </div>
+  <div class="field">
+    <%= f.label :reg_no %><br>
+    <%= f.text_field :reg_no %>
+  </div>
+  <div class="field">
+    <%= f.label :founded %><br>
+    <%= f.date_select :founded %>
+  </div>
+  <div class="field">
+    <%= f.label :headquarters %><br>
+    <%= f.text_field :headquarters %>
+  </div>
+  <div class="field">
+    <%= f.label :ceo %><br>
+    <%= f.text_field :ceo %>
+  </div>
+  <div class="field">
+    <%= f.label :services %><br>
+    <%= f.text_field :services %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :website %><br>
+    <%= f.text_field :website %>
+  </div>
+  <div class="field">
+    <%= f.label :logo_url %><br>
+    <%= f.text_field :logo_url %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

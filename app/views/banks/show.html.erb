@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @bank.name %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @bank.type %>
+</p>
+
+<p>
+  <strong>Reg no:</strong>
+  <%= @bank.reg_no %>
+</p>
+
+<p>
+  <strong>Founded:</strong>
+  <%= @bank.founded %>
+</p>
+
+<p>
+  <strong>Headquarters:</strong>
+  <%= @bank.headquarters %>
+</p>
+
+<p>
+  <strong>Ceo:</strong>
+  <%= @bank.ceo %>
+</p>
+
+<p>
+  <strong>Services:</strong>
+  <%= @bank.services %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @bank.email %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @bank.website %>
+</p>
+
+<p>
+  <strong>Logo url:</strong>
+  <%= @bank.logo_url %>
+</p>
+
+<%= link_to 'Edit', edit_bank_path(@bank) %> |
+<%= link_to 'Back', banks_path %>
