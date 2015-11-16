@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   resources :banks
   resources :admins
   #resources :citizen
-        get 'citizen'
+        
         get 'citizen/list'
         get 'citizen/new'
         post 'citizen/create'
