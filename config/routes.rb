@@ -1,9 +1,15 @@
 Rails.application.routes.draw do
+  
+  resources :transactions
   resources :banks
   resources :admins
+  #resources :citizen
+        
         get 'citizen/list'
         get 'citizen/new'
         post 'citizen/create'
+
+  root 'transactions#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

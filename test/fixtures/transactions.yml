@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  amount: 1
+  balance: 1
+  address: MyString
+  transaction_date: 2015-11-16
+  citizen_id: 
+
+two:
+  type: 
+  amount: 1
+  balance: 1
+  address: MyString
+  transaction_date: 2015-11-16
+  citizen_id: 
