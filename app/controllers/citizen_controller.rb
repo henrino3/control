@@ -1,8 +1,12 @@
 class CitizenController < ApplicationController
+    def index
+       @citizens = Citizen.all
+       render :action => 'list'
+    end
 	
 	def list
 		@citizens = Citizen.all
-		render :action => 'list'
+		render :json => @citizens
 	end
 
 	def show

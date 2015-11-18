@@ -1,11 +1,11 @@
-<% if @citizen.blank? %>
+<% if @citizens.blank? %>
 <p>There are not any citizens currently in the system.</p>
 <% else %>
 <p>These are the current citizens in our system</p>
 
 <ul id = "citizen">
-   <% @citizen.each do |c| %>
-   <li><%=  c.id-%></li>
+   <% @citizens.each do |c| %>
+   <li><%=  c.name-%></li>
    <% end %>
 </ul>
 
