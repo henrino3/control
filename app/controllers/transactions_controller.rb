@@ -1,8 +1,10 @@
 class TransactionsController < ApplicationController
-	before_action :find_transactions, only: [:show, :edit, :update, :destroy]
+	
+  before_action :find_transactions, only: [:show, :edit, :update, :destroy]
 
   def index
   	@transactions = Transaction.all.order('created_at DESC')
+    render json: @transactions
   end
 
   def new
