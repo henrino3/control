@@ -11,7 +11,7 @@ class CreateBanks < ActiveRecord::Migration
       t.string :email
       t.string :website
       t.string :logo_url
-
+      t.references :account, index: true, foreign_key: true
       t.timestamps null: false
     end
   end

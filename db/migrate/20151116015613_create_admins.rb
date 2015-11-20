@@ -4,8 +4,8 @@ class CreateAdmins < ActiveRecord::Migration
       t.string :username         
       t.string :password
       t.string :name 
-      t.text   :secuirity_question
-      t.text   :secuirity_answer
+      t.text   :security_question
+      t.text   :security_answer
       t.string :email
       t.string :phone
       t.string :level
