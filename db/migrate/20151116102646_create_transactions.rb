@@ -5,8 +5,7 @@ class CreateTransactions < ActiveRecord::Migration
       t.integer :amount
       t.integer :balance
       t.date :transaction_date
-      t.references :citizen, index: true, foreign_key: true
-      #t.references :bank, index: true, foreign_key: true
+      t.references :account, index: true, foreign_key: true
       t.timestamps null: false
     end
   end

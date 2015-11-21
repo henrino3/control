@@ -1,5 +1,5 @@
 class CreateCitizens < ActiveRecord::Migration
-  def change
+  def up
     create_table :citizens do |t|
          t.column :name,           :string, :limit => 32, :null => false
          t.column :phone_num1,     :text
@@ -9,6 +9,7 @@ class CreateCitizens < ActiveRecord::Migration
          t.column :nat_id,         :string, :null => false
          t.column :created,        :timestamp
          t.column :updated,         :timestamp 
+         t.references :account, index: true, foreign_key: true
         end
     end
 end
