@@ -8,7 +8,7 @@ class AdminsController < ApplicationController
   end
 
   # GET /admins/1
-  # GET /admins/1.json
+  # GET /admins/1.json  
   def show
   end
 

@@ -5,6 +5,7 @@ class BanksController < ApplicationController
   # GET /banks.json
   def index
     @banks = Bank.all
+    render json: @banks
   end
 
   # GET /banks/1
