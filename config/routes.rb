@@ -3,11 +3,13 @@ Rails.application.routes.draw do
   resources :transactions
   resources :banks
   resources :admins
-  #resources :citizen
+  resources :citizens
         
-        get 'citizen/list'
-        get 'citizen/new'
-        post 'citizen/create'
+      get 'citizen/list'
+      get 'citizen/new'
+      post 'citizen/create'
+      post 'citizen/new'
+      post 'transactions/create'  
 
   root 'transactions#index'
   # The priority is based upon order of creation: first created -> highest priority.

@@ -17,11 +17,15 @@
   </div>
   <div class="field">
     <%= f.label :amount %><br>
-    <%= f.text_field :amount %>
+    <%= f.number_field :amount %>
+  </div>
+  <div class="field">
+    <%= f.label :balance %><br>
+    <%= f.number_field :balance %>
   </div>
   <div class="field">
     <%= f.label :transaction_date %><br>
-    <%= f.text_field :transaction_date %>
+    <%= f.date_select :transaction_date %>
   </div>
   <div class="actions">
     <%= f.submit %>
