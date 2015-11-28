@@ -24,7 +24,11 @@ class TransactionsController < ApplicationController
   # POST /transactions
   # POST /transactions.json
   def create
-    @transaction = Transaction.new(transaction_params)
+      @transaction = Transaction.new(transaction_params)
+      @account= Account.find_by_id(params[:account_id])
+      @bank= Bank.find_by_id(Account.bank_id)
+      @signin_data = OpenStruct.new( :admin => @admin , :dashboard => @dashboard , :transactions => @transactions , :token => "123456" , :status => 200 , :message => "successful")
+      @signin_error =OpenStruct.new(:status => 401 , :message => "Access Denied" )
 
     respond_to do |format|
       if @transaction.save
