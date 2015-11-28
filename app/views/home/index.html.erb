@@ -20,6 +20,16 @@ body{
 .cr{
   text-align: center;
 }
+
+a:hover {
+    text-decoration: none;
+    color: #a89567;
+    transition: .3s;
+    background-color: #e4e2e4;
+}
+.overlay {
+    background: #36404a;
+    }
   </style>
 
 
@@ -28,8 +38,8 @@ body{
       <div class="container ">
         <nav class="blog-nav navbar-right ">
           <a class="blog-nav-item active" href="file:///var/www/html/black/main.html#">Home</a>
-          <a class="blog-nav-item" href="file:///var/www/html/black/main.html#">Bank Registration</a>
-          <a class="blog-nav-item" href="file:///var/www/html/black/main.html#">Admin Login</a>
+          <a class="blog-nav-item" href="banks/new">Bank Registration</a>
+          <a class="blog-nav-item" href="login">Admin Login</a>
         </nav>
       </div>
     </div>
@@ -44,7 +54,7 @@ body{
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="<%= image_tag "1.png" %>"s alt="First slide">
+          <img class="first-slide" src="https://github.com/henrino3/control/blob/master/app/assets/images/1.png?raw=trues" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
                           </div>
@@ -98,7 +108,7 @@ body{
       </div>
 
       <div class="col-md-6">
-        <img src="<%= image_tag "CT.png" %>" class="img-responsive img-center" alt="">
+        <img src='https://github.com/henrino3/control/blob/master/app/assets/images/CT.png?raw=true' class="img-responsive img-center" alt="">
       </div>
     </div>
   </div>
@@ -110,17 +120,17 @@ body{
         <h3 class="uppercase center-marg thecolor">Features</h3>
         <div class="row cr">
           <div class="col-md-4">
-            <img src=<%= image_tag "I1.png" %> class="text-center">
+            <img src="https://github.com/henrino3/control/blob/master/app/assets/images/i1.png?raw=true" class="text-center">
             <h4>Secure</h4>
             <p class="text-align">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
           </div>
           <div class="col-md-4">
-              <img src="./CONTROL SUITE ™_files/i2.png" class="">
+             <img src="https://github.com/henrino3/control/blob/master/app/assets/images/i2.png?raw=true" class="text-center">
             <h4>Access Control</h4>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
           </div>
           <div class="col-md-4">
-              <img src="./CONTROL SUITE ™_files/i3.png" class="">
+              <img src="https://github.com/henrino3/control/blob/master/app/assets/images/i3.png?raw=true" class="text-center">
             <h4>Transparent</h4>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
           </div>
@@ -132,21 +142,17 @@ body{
 
   <!-- BLOG -->
   <div class="container home-blog" style="
-    text-align: center;
-">
-    <h3 class="uppercase center-marg thecolor">How to get Started</h3>
-    <div class="row" style="
-    text-align: center;
-">
+    text-align: center">
+    <h2 class="uppercase thecolor" style="margin-bottom:10%">How to get Started</h2>
+    <div class="row" style="text-align: center;">
       <div class="col-md-6 blog-content">
-        <img src="./CONTROL SUITE ™_files/1.jpg" class="img-responsive" alt="">
-        <h4><a href="file:///var/www/html/black/main.html#">The 20 Most Beautiful and Breathtaking Places in the World</a></h4>
-        <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <h3 class="uppercaser">FOR GOVERNMENTS</h3>
+        <p>Call +23349750585 and book a demo</p>
       </div>
       <div class="col-md-6 blog-content">
-        <img src="./CONTROL SUITE ™_files/2.jpg" class="img-responsive" alt="">
-        <h4><a href="file:///var/www/html/black/main.html#">10 Steps to Optimizing Your Website for Search Engines</a></h4>
-        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vestibulum id ligula porta felis</p>
+        <h3 class="uppercase">FOR BANKS</h3>
+        <p>It takes just a minute to request for you API token <br/>
+        Start <a href="banks/new">HERE</a> </p>
       </div>
       
     </div>
