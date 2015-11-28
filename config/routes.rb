@@ -12,7 +12,7 @@ Rails.application.routes.draw do
       post 'citizen/create'
       post 'citizen/new'
       post 'transactions/create'  
-      root 'admins#index'
+      root 'home#index'
 
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'

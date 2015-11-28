@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Control</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="keywords" content="CONTROL SUITE ™">
+	<meta name="description" content="CONTROL SUITE ™">
+	<meta name="author" content="CONTROL SUITE ™">
+
+	<title>CONTROL SUITE ™</title>
+
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -10,7 +27,7 @@
 <% if current_user %>
   Signed in as <%= current_user.username %> | <%= link_to "Logout", '/destroy'%>
 <% else %>
-  <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
+ <!--  <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %> -->
 <% end %>
 <%= yield %>
 
